@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="725201927" android:versionName="2.1c" 
+    android:installLocation="auto"  platformBuildVersionCode="28"  platformBuildVersionName="9"
+    package="com.android.DROID_MJ.smsbomber">
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="27" />
+
+	<uses-permission android:name="android.permission.SEND_SMS" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/b"
+        android:label="@string/a"
+        android:supportsRtl="true"
+        android:theme="@style/a">
+        <activity android:configChanges="keyboard|keyboardHidden|layoutDirection|locale|orientation|screenSize" android:name=".a">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

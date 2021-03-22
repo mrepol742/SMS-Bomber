@@ -1,0 +1,8 @@
+<resources>
+
+ 
+    <style name="a" parent="@style/Theme.AppCompat.NoActionBar">
+<item name="colorPrimary">@color/b</item><item name="colorPrimaryDark">@color/c</item><item name="colorAccent">@color/a</item><item name="android:statusBarColor">@color/b</item><item name="windowNoTitle">true</item><item name="android:windowNoTitle">true</item><item name="android:navigationBarColor">@color/d</item><item name="android:windowBackground">@color/d</item>
+    </style>
+
+</resources>

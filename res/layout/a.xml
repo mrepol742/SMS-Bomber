@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center_horizontal" android:background="@color/d"
+    android:orientation="vertical">
+	<Toolbar android:id="@+id/e" android:layout_width="fill_parent" android:elevation="2dp" android:background="@color/b" android:layout_height="wrap_content">
+
+		<TextView android:textSize="16.0dip" android:gravity="center_vertical" android:id="@+id/f"  android:layout_marginRight="7dp" android:layout_marginLeft="7dp" android:textColor="#ffffff" android:layout_width="match_parent" android:layout_height="fill_parent" android:singleLine="true" />
+
+	</Toolbar>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent" android:scrollbars="none" >
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="10.0dip" android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+   <TextView android:layout_width="fill_parent"
+    android:layout_height="wrap_content" android:id="@+id/g" android:layout_margin="5dp" android:textColor="@color/b" android:textSize="14dp" android:text="Phone Number" />
+   <EditText android:id="@+id/a" android:layout_width="fill_parent"
+    android:layout_height="wrap_content"  android:inputType="phone" android:singleLine="true" android:textColor="@color/e" android:layout_margin="10dp" android:textSize="14.0dip" />
+
+   <TextView android:layout_width="fill_parent"
+    android:layout_height="wrap_content" android:layout_margin="5dp" android:id="@+id/h" android:layout_marginTop="15dp"  android:textColor="@color/b" android:textSize="14dp" android:text="Repeat Times" />
+<EditText android:id="@+id/b" android:inputType="number" android:layout_width="fill_parent"
+    android:layout_height="wrap_content"  android:textColor="@color/e" android:singleLine="true" android:layout_margin="10dp" android:textSize="14.0dip" />
+  <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:id="@+id/i" android:layout_marginTop="15dp" android:textColor="@color/b" android:textSize="14dp" android:text="Message" />
+<EditText android:id="@+id/c" android:layout_width="fill_parent"
+    android:layout_height="wrap_content"  android:singleLine="true" android:textColor="@color/e"  android:layout_margin="10dp" android:imeOptions="actionDone" android:imeActionId="@integer/a" android:textSize="14.0dip" />
+
+<Button  android:id="@+id/d" android:layout_width="fill_parent"
+    android:layout_height="wrap_content" android:layout_marginTop="30dp" android:background="@drawable/e" android:text="Send" android:textColor="#ffffffff" />
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
